@@ -28,6 +28,13 @@ body main .article {
   height: 75vh;
   flex-direction: column;
 }
+body main .article img {
+  height: 35vh;
+  transition: 0.5s;
+}
+body main .article img:hover {
+  height: 30vh;
+}
 body main .article .inner {
   padding: 1.5vh;
   flex-direction: column;
@@ -39,9 +46,6 @@ body main .article .inner .title {
 body main .article .inner .short_info {
   font-family: "Titillium Web", sans-serif;
   margin-top: 2.5vh;
-}
-body main .article img {
-  height: 35vh;
 }
 
 .flexed {

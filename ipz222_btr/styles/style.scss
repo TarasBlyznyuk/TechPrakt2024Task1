@@ -25,6 +25,13 @@ body {
             max-width: 30vw;
             height: 75vh;
             flex-direction: column;
+            img {
+                height: 35vh;
+                transition: 0.5s;
+            }
+            img:hover {
+                height: 30vh;
+            }
             .inner {
                 padding: 1.5vh;
                 flex-direction: column;
@@ -36,9 +43,6 @@ body {
                     font-family: 'Titillium Web', sans-serif;
                     margin-top: 2.5vh;
                 }
-            }
-            img {
-                height: 35vh;
             }
         }
     }
